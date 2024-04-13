@@ -23,3 +23,5 @@ Stay ahead of the curve with my trend insights, tailored to keep your brand rele
 Unlock your brand's full potential in the digital world, whether you're a startup looking to make a splash or an established brand aiming to refresh your online presence.
 
 Reach out at [hello@mihikas.com](mailto:hello@mihikas.com) to kickstart our collaboration!
+
+Wishing you sunshine ☀️ and smiles 🤗!
