@@ -2,7 +2,7 @@
 
 I'm a digital marketer with a background deeply rooted in the world of aesthetics and creativity. My journey into the realm of marketing began during my final year as a Fashion Design graduate, where my love for colors, textures, and storytelling converged to shape my passion for building compelling brands.
 
-### **[Hire me](pages/services) | [Clients](pages/clients) | [Testimonials](pages/testimonials) | [Blog](posts)** 
+### **[Blog](posts) | [Clients](pages/clients) | [Testimonials](pages/testimonials) | [Hire me](pages/services)** 
 
 ## How I Elevate Your Brand 🚀
 
