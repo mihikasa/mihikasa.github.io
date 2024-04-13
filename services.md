@@ -30,7 +30,5 @@ Let's work together to craft tailored solutions that amplify your brand's succes
 
 ## Let's Collaborate! 🤝
 
-Ready to elevate your brand's digital presence and achieve your business objectives? Whether it's increasing website traffic, improving brand visibility, or boosting conversions, I'm here to help. 
-
 If you'd like to know more details about any of the services offered, feel free to contact me at [hello@mihikas.com](mailto:hello@mihikas.com). Reach out to start the conversation and explore how we can work together.
 
