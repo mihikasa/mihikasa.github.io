@@ -2,6 +2,8 @@ title: Mihika Saxena
 author: Mihika Saxena
 email: hello@mihikas.com
 
-favicon: "favicon.svg"
+baseurl: ""
 
 remote_theme: yree/mold
+
+favicon: "favicon.svg"
