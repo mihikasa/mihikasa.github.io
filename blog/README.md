@@ -1,3 +1,3 @@
 # Blog 📝
 
-You are early, content coming soon... ✨
+You are early, content coming soon ✨
