@@ -2,7 +2,7 @@
 
 I'm a digital marketer with a background deeply rooted in the world of aesthetics and creativity. My journey into the realm of marketing began during my final year as a Fashion Design graduate, where my love for colors, textures, and storytelling converged to shape my passion for building compelling brands.
 
-### **[Hire me](pages/services) | [Clients](pages/clients) | [Blog](blog)** 
+### **[Hire me](pages/services) | [Clients](pages/clients) | [Blog](posts)** 
 
 ## How I Elevate Your Brand 🚀
 
@@ -18,7 +18,7 @@ I optimize your content for SEO, ensuring your brand shines bright and reaches a
 ### Trend Analysis 📊
 Stay ahead of the curve with my trend insights, tailored to keep your brand relevant and engaging.
 
-## Let's Connect 📩
+## Let's Connect 🤝
 
 Unlock your brand's full potential in the digital world, whether you're a startup looking to make a splash or an established brand aiming to refresh your online presence.
 
