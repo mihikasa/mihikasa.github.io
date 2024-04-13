@@ -1,0 +1,11 @@
+pagescms:
+  collections:
+    - name: blog
+      path: .
+      fields:
+        - name: title
+          label: Title
+          type: text
+        - name: body
+          label: Body
+          type: markdown
