@@ -6,4 +6,4 @@ Discover what my clients have to say about their experiences working with me. �
 ><br>
 > #DigitalMarketingMagic #BunnyApproved 🐰  
 ><br>
-> - **Bunbun Bunny**, Chief Carrot Connoisseur 🥕
+> -- **Bunbun Bunny**, Chief Carrot Connoisseur 🥕
