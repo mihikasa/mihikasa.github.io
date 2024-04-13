@@ -1,6 +1,6 @@
 # Hello!👋 I'm Mihika Saxena 💃
 
-I'm a digital marketer with a background deeply rooted in the world of aesthetics and creativity. My journey into the realm of marketing began during my final year as a Fashion Design graduate, where my love for colors, textures, and storytelling converged to shape my passion for building compelling brands.
+I'm a digital marketer with a background deeply rooted in the world of aesthetics and creativity. [My journey into the realm of marketing](clients) began during my final year as a Fashion Design graduate, where my love for colors, textures, and storytelling converged to shape my passion for building compelling brands.
 
 ## How I Can Help You Build Your Brand 🚀
 
