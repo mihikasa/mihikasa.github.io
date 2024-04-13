@@ -1,5 +1,5 @@
 content:
-  - name: posts
-    label: Posts
-    path: posts
+  - name: pages
+    label: Pages
+    path: pages
     type: collection
