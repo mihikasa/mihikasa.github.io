@@ -24,4 +24,4 @@ Unlock your brand's full potential in the digital world, whether you're a startu
 
 Reach out at [hello@mihikas.com](mailto:hello@mihikas.com) to kickstart our collaboration!
 
-Wishing you sunshine ☀️ and smiles 🤗!
+Sending hugs your way! 🤗
