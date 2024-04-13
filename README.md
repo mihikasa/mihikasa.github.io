@@ -1,6 +1,8 @@
 # Hello!👋 I'm Mihika Saxena💃
 
-I'm a digital marketer with a background deeply rooted in the world of aesthetics and creativity. [My journey into the realm of marketing](clients) began during my final year as a Fashion Design graduate, where my love for colors, textures, and storytelling converged to shape my passion for building compelling brands.
+I'm a digital marketer with a background deeply rooted in the world of aesthetics and creativity. My journey into the realm of marketing began during my final year as a Fashion Design graduate, where my love for colors, textures, and storytelling converged to shape my passion for building compelling brands.
+
+### **[Hire me](hireme) | [Previous clients](clients)** 
 
 ## How I Elevate Your Brand 🚀
 
@@ -18,4 +20,6 @@ Stay ahead of the curve with my trend insights, tailored to keep your brand rele
 
 ## Let's Connect 📩
 
-Unlock your brand's full potential in the digital world. Whether you're a startup or an established brand, I'm here to help. Reach out at [hello@mihikas.com](mailto:hello@mihikas.com) to kickstart our collaboration!
+Unlock your brand's full potential in the digital world, whether you're a startup looking to make a splash or an established brand aiming to refresh your online presence.
+
+Reach out at [hello@mihikas.com](mailto:hello@mihikas.com) to kickstart our collaboration!
