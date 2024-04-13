@@ -15,7 +15,7 @@ Crafting compelling narratives that leave a lasting impression across digital pl
 ### Boosting Online Visibility 🔍
 I optimize your content for SEO, ensuring your brand shines bright and reaches a wider audience.
 
-### Trend Analysis + Strategy 📊
+### Trend Analysis 📊
 Stay ahead of the curve with my trend insights, tailored to keep your brand relevant and engaging.
 
 ## Let's Connect 📩
