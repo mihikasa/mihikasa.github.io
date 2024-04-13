@@ -1,4 +1,4 @@
-# Previous Clients 💼
+# Clients 💼
 
 During my career, I've had the privilege to collaborate with various brands, contributing to their digital marketing and branding efforts. Here are some highlights:
 
