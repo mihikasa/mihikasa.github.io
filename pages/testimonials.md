@@ -8,7 +8,8 @@ Discover what my clients have to say about their experiences working with me. �
 ><br>
 > Mihika's dedication and expertise make her a valuable asset in any professional setting. I highly recommend her for any future endeavors and wish her all the best."  
 ><br>
-> -- **Rohan Lamghare**, CEO at Thob.studio
+> -- **Rohan Lamghare**, CEO at [thob.studio](https://thob.studio)
+
 
 > "Hey, doc! Let me tell ya, when it comes to getting the carrots – or should I say, customers – hopping down the digital rabbit hole, Mihika is the real deal! With her expertise, our brand went from just another carrot in the patch to the talk of the town. And let me tell ya, she is as reliable as my trusty carrot stash – always there when you need 'em, ready to tackle any challenge head-on. 💪"  
 ><br>
