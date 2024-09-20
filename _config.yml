@@ -8,3 +8,6 @@ url: "https://mihikas.com"
 remote_theme: yree/mold
 
 favicon: "favicon.svg"
+
+footer_content: >
+  ##### © 2024 [Mihika Saxena](https://mihikas.com) :: [contact](javascript:window.location='mailto:hey@mihikas.com?subject='+encodeURIComponent(document.title)) 
