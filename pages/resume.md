@@ -50,7 +50,7 @@ Relevant courses: Management Essentials, Consumer Behaviour and Marketing, Digit
 ---
 
 ## **✨ Interests and Achievements**  
-- Organized fashion shows at Prima (the fashion society at FDDI) and managed event logistics.  
+- Organized fashion shows at Prisma (the fashion society at FDDI) and managed event logistics.  
 - Completed certifications in digital marketing and data analysis, enhancing administrative and technical skills.  
 
 ---
