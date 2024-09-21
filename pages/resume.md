@@ -48,7 +48,7 @@ _September 2024 – Present_
 **B.Des in Fashion Design**  
 Footwear Design and Development Institute, Hyderabad, India  
 _2020 – 2024_  
-Relevant courses: Management Essentials, Consumer Behaviour and Marketing, Digital Tools for Design and Marketing.
+Courses: Pattern Making, Garment Construction, Draping, Design Process, Management Essentials, Intellectual Property Rights, Consumer Behaviour and Marketing, Retail and Fashion Merchandising, Fashion Forecasting, and Market Survey
 
 ---
 
