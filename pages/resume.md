@@ -1,6 +1,6 @@
 # **Mihika Saxena** 💃
 
-As a postgraduate student in Fashion Marketing at NTU, I thrive on organizing details and bringing structure to any project I work on. With a natural ability for managing tasks and keeping things running smoothly, I enjoy taking on roles that allow me to support teams and bring creative ideas to life. Whether it's event coordination or keeping data organized, I find satisfaction in making sure everything is handled efficiently. Having worked in digital marketing, fashion design, and styling, I’ve developed a love for both the creative and technical aspects of my work. 
+As a postgraduate student in Fashion Marketing at NTU, I thrive on organizing details and bringing structure to any project I work on. With a natural ability for managing tasks and keeping things running smoothly, I enjoy taking on roles that allow me to support teams and bring creative ideas to life. Having worked in digital marketing, fashion design, and styling, I’ve developed a love for both the creative and technical aspects of my work. 
 
 ### [🌐 website](https://mihikas.com/) :: [💼 linkedin](https://www.linkedin.com/in/mihikas) :: [✉️ mail](mailto:hello@mihikas.com) :: 📞 +44 07823615791
 
