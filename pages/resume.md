@@ -11,28 +11,31 @@ As a postgraduate student in Fashion Marketing at NTU, I thrive on organizing de
 **Digital Marketer**  
 Earthen Tunes Design, Remote  
 _June 2024 – September 2024_  
-- Managed social media accounts and developed content to enhance brand visibility.  
-- Created and maintained a social media calendar to ensure consistent posting and brand messaging.  
-- Tracked and analyzed web traffic via Google Analytics to optimize engagement strategies.  
+- Managed social media and developed content to boost brand visibility.
+- Planned and executed a social media calendar for consistent posting.
+- Tracked analytics via Google Analytics to drive strategic decisions.
+- Ran and optimized Meta ad campaigns for increased engagement.  
 
 **Marketing Intern**  
 Thob Studio, Pune, India  
 _February 2024 – April 2024_  
-- Managed routine administrative tasks including data compilation, email drafting, and maintaining social media calendars.  
-- Organized marketing reports and email communications, ensuring timely dissemination of information.  
-- Supported the team in preparing marketing collateral and event materials.
+- Conducted keyword research, developed SEO-optimized blog topics, and managed social media and email marketing campaigns to drive traffic and establish brand presence.
+- Defined brand identity, crafted compelling narratives, and provided creative input for social media content (including reels) to solidify brand image and market position.
+- Constructed the website's sitemap and content structure, assisted with creating 3D fashion models for product visualization, and contributed to content ideas across various social media platforms to ensure a seamless user journey
 
 **Design Intern**  
 Anemone Vinkel, Hyderabad, India  
 _June 2023 – August 2023_  
-- Assisted with market research and duties such as maintaining design documentation and supporting event coordination.  
-- Updated design archives and provided logistical support during product development meetings.
+- Created print motifs aligned with brand aesthetics and themes, contributing to the brand's visual narrative.
+- Orchestrated photoshoot styling and developed multimedia content for social media platforms.
+- Conducted market analysis, identifying industry trends to guide future collections and product strategies.
 
 **Fashion Stylist Intern**  
 RAS Media and Entertainment Pvt. Ltd., Hyderabad, India  
 _June 2022 – August 2022_  
-- Carried out tasks related to photoshoot logistics, including managing inventory and coordinating between teams.  
-- Prepared materials for events and supported smooth communication with external vendors.
+- Supported the Head Stylist in varied tasks, honing skills in visual communication and coordination.
+- Conceived and realised shoot themes, coordinating logistics to shape visual narratives.
+- Managed sourcing of outfits and props, enhancing coherence and impact in presentation.
 
 ---
 
