@@ -1,45 +1,43 @@
-# **Mihika Saxena** 💃
+# **Mihika Saxena** 
 
-As a postgraduate student in Fashion Marketing at NTU, I thrive on organizing details and bringing structure to any project I work on. With a natural ability for managing tasks and keeping things running smoothly, I enjoy taking on roles that allow me to support teams and bring creative ideas to life. Having worked in digital marketing, fashion design, and styling, I’ve developed a love for both the creative and technical aspects of my work. 
+Postgraduate student in Fashion Marketing at NTU with strong organizational, communication, and research skills. Experienced in content creation, digital marketing, and data analysis, I thrive in team settings and am passionate about contributing to impactful research and creative projects. My academic background and work experience in fashion marketing, combined with my ability to write for public platforms, equip me well for research-focused roles. 
 
 ### [🌐 website](https://mihikas.com/) :: [💼 linkedin](https://www.linkedin.com/in/mihikas) :: [✉️ mail](mailto:hello@mihikas.com) :: 📞 +44 07823615791
 
 ---
 
-## **💼 Experience**
+## **Experience**
 
 **Digital Marketer**  
 Earthen Tunes Design, Remote  
 _June 2024 – September 2024_  
-- Managed social media and developed content to boost brand visibility.
-- Planned and executed a social media calendar for consistent posting.
-- Tracked analytics via Google Analytics to drive strategic decisions.
-- Ran and optimized Meta ad campaigns for increased engagement.  
+- Managed social media content and increased brand visibility through consistent content creation.
+- Conducted data analysis via Google Analytics to inform strategic marketing decisions.
+- Created engaging short-form articles and posts to build public engagement with the brand, contributing to content development for broader audiences.
+- Wrote SEO-optimized blogs to enhance the brand’s online presence.  
 
 **Marketing Intern**  
 Thob Studio, Pune, India  
 _February 2024 – April 2024_  
-- Conducted keyword research, developed SEO-optimized blog topics, and managed social media and email marketing campaigns to drive traffic and establish brand presence.
-- Defined brand identity, crafted compelling narratives, and provided creative input for social media content (including reels) to solidify brand image and market position.
-- Constructed the website's sitemap and content structure, assisted with creating 3D fashion models for product visualization, and contributed to content ideas across various social media platforms to ensure a seamless user journey
+- Conducted in-depth keyword research and SEO-optimized content development.
+- Assisted in the creation of digital content, including blog posts and social media articles, aimed at both specialized and public audiences.
+- Defined brand identity through storytelling, boosting audience engagement.
 
 **Design Intern**  
 Anemone Vinkel, Hyderabad, India  
 _June 2023 – August 2023_  
-- Created print motifs aligned with brand aesthetics and themes, contributing to the brand's visual narrative.
-- Orchestrated photoshoot styling and developed multimedia content for social media platforms.
-- Conducted market analysis, identifying industry trends to guide future collections and product strategies.
+- Contributed to multimedia content development for social media, aimed at reaching a broader audience.
+- Conducted market research, focusing on qualitative data analysis to guide future product strategies.
 
 **Fashion Stylist Intern**  
 RAS Media and Entertainment Pvt. Ltd., Hyderabad, India  
 _June 2022 – August 2022_  
-- Supported the Head Stylist in varied tasks, honing skills in visual communication and coordination.
-- Conceived and realised shoot themes, coordinating logistics to shape visual narratives.
-- Managed sourcing of outfits and props, enhancing coherence and impact in presentation.
+- Managed visual communication tasks and conceptualized themes for public-facing content.
+- Developed narratives for photo shoots and multimedia content, ensuring strong public engagement.
 
 ---
 
-## **🎓 Education**
+## **Education**
 
 **M.Arts in Fashion Marketing**  
 Nottingham Trent University, Nottingham, UK  
@@ -52,11 +50,19 @@ Courses: Pattern Making, Garment Construction, Draping, Design Process, Manageme
 
 ---
 
-## **✨ Interests and Achievements**  
+## **Skills**  
+- Excellent written and communication skills, with a focus on producing public-facing content.
+- Experience with data analysis and qualitative research.
+- Strong ability to conduct literature reviews and analyze research findings.
+- Ability to produce concise reports, blog articles, and content for media platforms.
+
+---
+
+## **Interests and Achievements**  
 - Organized fashion shows at Prisma (the fashion society at FDDI) and managed event logistics.  
 - Completed certifications in digital marketing and data analysis, enhancing administrative and technical skills.  
 
 ---
 
-## **📜 References**  
+## **References**  
 Available upon request.
