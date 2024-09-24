@@ -65,4 +65,16 @@ Courses: Pattern Making, Garment Construction, Draping, Design Process, Manageme
 ---
 
 ## **References**  
-Available upon request.
+Mr. Shantanu Mishra                                               Mr. Rohan Lamghare   
+Founder                                                           CEO
+Yree                                                              The House of Bespoke (thob) 
+Hyderabad, Telangana, India                                       Pune, Maharashtra, India 
++91 7036364026                                                    +91 
+hey@8hantanu.net                                                  rohan@consultbop.com
+
+Mr. Rohan Lamghare
+CEO
+The House of Bespoke (thob)
+Pune, Maharashtra, India
++91 
+rohan@consultbop.com
