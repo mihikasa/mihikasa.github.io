@@ -26,3 +26,5 @@ Unlock your brand's full potential in the digital world, whether you're a startu
 Reach out at [hello@mihikas.com](mailto:hello@mihikas.com) to kickstart our collaboration!
 
 Sending hugs your way! 🤗
+
+<script src="./neko.js"></script>
