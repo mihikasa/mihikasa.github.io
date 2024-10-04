@@ -6,4 +6,4 @@
 <iframe src="https://mihikas.com/pages/resume" title="Mihika's resume" height="400ch"></iframe>
 </details>
 <br>
-<iframe src="[https://](https://curi.fly.dev/?name=Mihika&resume_url=https://mihikas.com/pages/resume.md" title="Mihika's a good fit?" height="400ch"></iframe>
+<iframe src="https://curi.fly.dev/?name=Mihika&resume_url=https://mihikas.com/pages/resume.md" title="Mihika's a good fit?" height="400ch"></iframe>
