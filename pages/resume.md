@@ -41,6 +41,17 @@ RAS Media and Entertainment Pvt. Ltd., Hyderabad, India\
 
 ---
 
+## **Projects**
+
+**NotMehMatcha**\
+Instagram Page\
+*2024 – Present*
+- Created an Instagram page to share insights on marketing trends, case studies, and hot topics in fashion and digital marketing.
+- Conducted in-depth research and analysis of industry news to create engaging carousel posts, reels, and stories, effectively boosting audience engagement and expanding platform reach.
+- Experimented with marketing campaigns, measuring engagement metrics like reach, impressions, and conversion rates to refine content strategies.
+
+---
+
 ## **Education**
 
 **M.Arts in Fashion Marketing**\
@@ -50,7 +61,7 @@ Nottingham Trent University, Nottingham, UK\
 **B.Des in Fashion Design**\
 Footwear Design and Development Institute, Hyderabad, India\
 *2020 – 2024*\
-Courses: Pattern Making, Garment Construction, Draping, Design Process, Management Essentials, Intellectual Property Rights, Consumer Behaviour and Marketing, Retail and Fashion Merchandising, Fashion Forecasting, and Market Survey
+Courses: Consumer Behaviour and Marketing, Design Process, Management Essentials, Intellectual Property Rights, Retail and Fashion Merchandising, Fashion Forecasting, and Market Survey
 
 ---
 
