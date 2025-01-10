@@ -61,7 +61,8 @@ Nottingham Trent University, Nottingham, UK\
 **B.Des in Fashion Design**\
 Footwear Design and Development Institute, Hyderabad, India\
 *2020 – 2024*\
-Courses: Consumer Behaviour and Marketing, Design Process, Management Essentials, Intellectual Property Rights, Retail and Fashion Merchandising, Fashion Forecasting, and Market Survey
+- Courses: Consumer Behaviour and Marketing, Design Process, Management Essentials, Intellectual Property Rights, Retail and Fashion Merchandising, Fashion Forecasting, and Market Survey
+- Organized fashion shows as part of Prisma (the fashion society at FDDI) and managed event logistics.
 
 ---
 
@@ -76,22 +77,4 @@ Courses: Consumer Behaviour and Marketing, Design Process, Management Essentials
 
 ## **Interests and Achievements**
 
-- Organized fashion shows at Prisma (the fashion society at FDDI) and managed event logistics.
 - Completed certifications in digital marketing and data analysis, enhancing administrative and technical skills.
-
----
-
-## **References**
-
-**Mr. Shantanu Mishra**\
-*Founder* of **Yree**\
-Hyderabad, Telangana, India\
-+91 7036364026\
-[shantanu@yree.io](mailto\:shantanu@yree.io)
-
-**Mr. Rohan Lamghare**\
-*CEO* at **The House of Bespoke (thob)**\
-Pune, Maharashtra, India\
-+91 1234567890\
-[rohan@consultbop.com](mailto\:rohan@consultbop.com)
-
