@@ -64,7 +64,7 @@ Nottingham Trent University, Nottingham, UK\
 Footwear Design and Development Institute, Hyderabad, India\
 *2020 – 2024*\
 - Courses: Consumer Behaviour and Marketing, Design Process, Management Essentials, Intellectual Property Rights, Retail and Fashion Merchandising, Fashion Forecasting, and Market Survey
-- Organized fashion shows as part of Prisma (the fashion society at FDDI) and managed event logistics.
+- Organized fashion shows as the lead co-ordinator of the PRISMA fashion society and managed event logistics.
 
 ---
 
