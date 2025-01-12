@@ -1,8 +1,10 @@
-<center><h1>Mihika Saxena</h1></center>
+<center>
+<h1>Mihika Saxena</h1>
+<p>✨ mihikas.com  ✉️ hello@mihikas.com  📞 +44 07823615791  📍 Nottingham, UK
+<br>
+</center>
 
 Postgraduate student in Fashion Marketing at NTU with strong organizational, communication, and research skills. Experienced in content creation, digital marketing, and data analysis, I thrive in team settings and am passionate about contributing to impactful research and creative projects. My academic background and work experience in fashion marketing, combined with my ability to write for public platforms, equip me well for research-focused roles.
-
-✨ [mihikas.com](https://mihikas.com/)  🍵 [instagram](https://www.instagram.com/notmehmatcha/) | 💼 [linkedin](https://www.linkedin.com/in/mihikas) | ✉️ [mail](mailto\:hello@mihikas.com) | 📞 +44 07823615791
 
 ---
 
