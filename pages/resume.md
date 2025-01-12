@@ -1,6 +1,6 @@
 <center>
 <h1>Mihika Saxena</h1>
-<p>✨ mihikas.com  ✉️ hello@mihikas.com  📞 +44 07823615791  📍 Nottingham, UK
+<p>✨ mihikas.com  ✉️ hello@mihikas.com  📞 +44 07823615791  📍 Nottingham, UK</p>
 <br>
 </center>
 
