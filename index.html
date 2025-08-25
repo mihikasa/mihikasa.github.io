@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mihika Saxena - Luxury Brand Marketing Specialist</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lora:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-pink: #D4526A;
+            --soft-pink: #F4E4E7;
+            --rose-gold: #E8B4B8;
+            --dark-pink: #B8374A;
+            --luxury-black: #1A1A1A;
+            --luxury-gray: #2C2C2C;
+            --cream: #FAF7F5;
+            --gold: #C9A96E;
+            --text-light: #6B6B6B;
+        }
+
+        body {
+            font-family: 'Lora', serif;
+            background: linear-gradient(135deg, var(--cream) 0%, var(--soft-pink) 30%, var(--rose-gold) 100%);
+            color: var(--luxury-black);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* Elegant Navigation */
+        .nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(250, 247, 245, 0.95);
+            backdrop-filter: blur(20px);
+            z-index: 1000;
+            padding: 1.5rem 3rem;
+            box-shadow: 0 4px 30px rgba(212, 82, 106, 0.1);
+            border-bottom: 1px solid rgba(212, 82, 106, 0.1);
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(45deg, var(--primary-pink), var(--gold));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: -0.5px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 3rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--luxury-black);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: all 0.4s ease;
+            position: relative;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+        }
+
+        .nav-links a:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 50%;
+            background: linear-gradient(45deg, var(--primary-pink), var(--gold));
+            transition: all 0.4s ease;
+            transform: translateX(-50%);
+        }
+
+        .nav-links a:hover:after {
+            width: 100%;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-pink);
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 3rem;
+        }
+
+        .section {
+            min-height: 100vh;
+            padding: 8rem 0;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 1s ease;
+        }
+
+        .section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Luxury Hero Section */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: var(--luxury-black);
+            background: linear-gradient(135deg, var(--cream) 0%, var(--soft-pink) 50%, rgba(212, 82, 106, 0.1) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23D4526A' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat;
+            z-index: -1;
+        }
+
+        .hero-content h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4.5rem;
+            margin-bottom: 2rem;
+            font-weight: 400;
+            line-height: 1.2;
+            letter-spacing: -1px;
+            animation: fadeInUp 1.2s ease;
+        }
+
+        .hero-content .name {
+            background: linear-gradient(45deg, var(--primary-pink), var(--gold));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-content .emoji {
+            display: inline-block;
+            animation: elegantFloat 3s ease-in-out infinite;
+            font-size: 4rem;
+        }
+
+        .hero-content p {
+            font-size: 1.4rem;
+            margin-bottom: 3rem;
+            line-height: 1.8;
+            animation: fadeInUp 1.2s 0.3s both;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            color: var(--text-light);
+            font-weight: 300;
+        }
+
+        .cta-links {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            animation: fadeInUp 1.2s 0.6s both;
+        }
+
+        .cta-btn {
+            padding: 1.2rem 2.5rem;
+            background: linear-gradient(135deg, var(--primary-pink), var(--dark-pink));
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            border: 2px solid transparent;
+            transition: all 0.4s ease;
+            backdrop-filter: blur(10px);
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.7s;
+        }
+
+        .cta-btn:hover::before {
+            left: 100%;
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(212, 82, 106, 0.3);
+        }
+
+        .cta-btn.secondary {
+            background: transparent;
+            color: var(--primary-pink);
+            border: 2px solid var(--primary-pink);
+        }
+
+        .cta-btn.secondary:hover {
+            background: var(--primary-pink);
+            color: white;
+        }
+
+        /* Luxury Services Section */
+        .services {
+            background: var(--cream);
+            padding: 8rem 0;
+            position: relative;
+        }
+
+        .services::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, transparent 0%, rgba(212, 82, 106, 0.05) 50%, transparent 100%);
+            z-index: -1;
+        }
+
+        .section-title {
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin-bottom: 4rem;
+            color: var(--luxury-black);
+            font-weight: 400;
+            letter-spacing: -1px;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 1.2rem;
+            margin-bottom: 4rem;
+            color: var(--text-light);
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 300;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 3rem;
+            margin-top: 4rem;
+        }
+
+        .service-card {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 3rem 2.5rem;
+            border-radius: 20px;
+            text-align: left;
+            transition: all 0.5s ease;
+            border: 1px solid rgba(212, 82, 106, 0.1);
+            backdrop-filter: blur(10px);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(45deg, var(--primary-pink), var(--gold));
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.5s ease;
+        }
+
+        .service-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(212, 82, 106, 0.15);
+            background: rgba(255, 255, 255, 0.95);
+        }
+
+        .service-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: var(--luxury-black);
+            font-weight: 600;
+        }
+
+        .service-card p {
+            line-height: 1.8;
+            color: var(--text-light);
+            font-weight: 400;
+        }
+
+        /* Luxury Clients Section */
+        .clients {
+            background: linear-gradient(135deg, var(--soft-pink) 0%, rgba(212, 82, 106, 0.1) 100%);
+            padding: 8rem 0;
+        }
+
+        .client-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 3rem;
+        }
+
+        .client-card {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 3rem;
+            border-radius: 20px;
+            transition: all 0.5s ease;
+            border: 1px solid rgba(212, 82, 106, 0.1);
+            backdrop-filter: blur(10px);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .client-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(45deg, var(--primary-pink), var(--gold));
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.5s ease;
+        }
+
+        .client-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .client-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(212, 82, 106, 0.15);
+            background: rgba(255, 255, 255, 0.95);
+        }
+
+        .client-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: var(--luxury-black);
+            font-weight: 600;
+        }
+
+        .client-card h3 a {
+            color: var(--primary-pink);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .client-card h3 a:hover {
+            color: var(--gold);
+        }
+
+        .client-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .client-card li {
+            margin-bottom: 1.2rem;
+            padding-left: 2rem;
+            position: relative;
+            line-height: 1.8;
+            color: var(--text-light);
+        }
+
+        .client-card li:before {
+            content: "◆";
+            position: absolute;
+            left: 0;
+            color: var(--primary-pink);
+            font-size: 0.8rem;
+        }
+
+        /* Luxury Testimonials Section */
+        .testimonials {
+            background: var(--cream);
+            padding: 8rem 0;
+        }
+
+        .testimonial-grid {
+            display: grid;
+            gap: 3rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .testimonial {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 3rem;
+            border-radius: 20px;
+            border-left: 5px solid var(--primary-pink);
+            position: relative;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(212, 82, 106, 0.1);
+        }
+
+        .testimonial::before {
+            content: '"';
+            position: absolute;
+            top: -10px;
+            left: 20px;
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem;
+            color: var(--primary-pink);
+            opacity: 0.3;
+        }
+
+        .testimonial blockquote {
+            font-style: italic;
+            line-height: 1.9;
+            margin-bottom: 2rem;
+            color: var(--text-light);
+            font-size: 1.1rem;
+            font-weight: 300;
+        }
+
+        .testimonial-author {
+            font-weight: 600;
+            color: var(--luxury-black);
+            font-size: 1rem;
+        }
+
+        /* Blog Section */
+        .blog {
+            background: linear-gradient(135deg, var(--soft-pink) 0%, rgba(201, 169, 110, 0.1) 100%);
+            padding: 8rem 0;
+            text-align: center;
+        }
+
+        .blog p {
+            font-size: 1.4rem;
+            color: var(--text-light);
+            font-weight: 300;
+        }
+
+        .coming-soon {
+            display: inline-block;
+            animation: luxuryPulse 3s infinite;
+        }
+
+        @keyframes luxuryPulse {
+            0%, 100% { transform: scale(1); opacity: 0.8; }
+            50% { transform: scale(1.05); opacity: 1; }
+        }
+
+        /* Luxury Contact Section */
+        .contact {
+            background: linear-gradient(135deg, var(--luxury-black) 0%, var(--luxury-gray) 100%);
+            color: white;
+            text-align: center;
+            padding: 8rem 0;
+            position: relative;
+        }
+
+        .contact::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23D4526A' fill-opacity='0.05'%3E%3Cpath d='M20 20c0-11.046-8.954-20-20-20v20h20z'/%3E%3C/g%3E%3C/svg%3E") repeat;
+            z-index: -1;
+        }
+
+        .contact h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin-bottom: 2rem;
+            font-weight: 400;
+        }
+
+        .contact p {
+            font-size: 1.3rem;
+            margin-bottom: 3rem;
+            line-height: 1.8;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 300;
+        }
+
+        .email-btn {
+            display: inline-block;
+            padding: 1.5rem 3rem;
+            background: linear-gradient(135deg, var(--primary-pink), var(--gold));
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.4s ease;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .email-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.7s;
+        }
+
+        .email-btn:hover::before {
+            left: 100%;
+        }
+
+        .email-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(212, 82, 106, 0.4);
+        }
+
+        /* Luxury Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes elegantFloat {
+            0%, 100% {
+                transform: translateY(0px) rotate(0deg);
+            }
+            33% {
+                transform: translateY(-10px) rotate(2deg);
+            }
+            66% {
+                transform: translateY(-5px) rotate(-1deg);
+            }
+        }
+
+        /* Floating luxury elements */
+        .floating {
+            position: absolute;
+            pointer-events: none;
+            animation: luxuryFloat 8s ease-in-out infinite;
+            opacity: 0.6;
+        }
+
+        @keyframes luxuryFloat {
+            0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.6; }
+            33% { transform: translateY(-30px) rotate(5deg); opacity: 0.8; }
+            66% { transform: translateY(-15px) rotate(-3deg); opacity: 0.7; }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav {
+                padding: 1rem 2rem;
+            }
+            
+            .nav-links {
+                gap: 1.5rem;
+            }
+            
+            .hero-content h1 {
+                font-size: 3rem;
+            }
+            
+            .section-title {
+                font-size: 2.5rem;
+            }
+            
+            .hero-content p {
+                font-size: 1.2rem;
+            }
+            
+            .cta-links {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .services-grid,
+            .client-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .container {
+                padding: 0 2rem;
+            }
+        }
+
+        /* Luxury cursor effect */
+        .cursor-dot {
+            width: 5px;
+            height: 5px;
+            background: var(--primary-pink);
+            border-radius: 50%;
+            position: fixed;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            z-index: 9999;
+            transition: transform 0.1s ease;
+        }
+
+        .cursor-outline {
+            width: 30px;
+            height: 30px;
+            border: 2px solid rgba(212, 82, 106, 0.3);
+            border-radius: 50%;
+            position: fixed;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            z-index: 9998;
+            transition: all 0.15s ease;
+        }
+    </style>
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Luxury Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo">Mihika Saxena</div>
+            <ul class="nav-links">
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Hire me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Luxury Hero Section -->
+    <section id="home" class="section hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>I am Mihika 💃</h1>
+                <p>I am a marketer with a background deeply rooted in the world of aesthetics and creativity. My journey into the realm of marketing began during my final year as a Fashion Design graduate, where my love for colors, textures, and storytelling converged to shape my passion for building compelling brands.</p>
+                <div class="cta-links">
+                    <a href="#contact" class="cta-btn">Let's connect</a>
+                </div>
+            </div>
+        </div>
+        <div class="floating" style="top: 15%; left: 8%; font-size: 2.5rem;">✨</div>
+        <div class="floating" style="top: 70%; right: 10%; font-size: 2rem; animation-delay: -3s;">🌹</div>
+        <div class="floating" style="bottom: 25%; left: 15%; font-size: 1.8rem; animation-delay: -6s;">💎</div>
+    </section>
+
+    <!-- Luxury Services Section -->
+    <section id="services" class="section services">
+        <div class="container">
+            <h2 class="section-title">How I Elevate Your Brand 🚀</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Creative + Strategy Fusion 🎨</h3>
+                    <p>I merge my fashion design background with marketing savvy to create impactful brand narratives that resonate with your audience.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Captivating Brand Stories ✨</h3>
+                    <p>Crafting compelling narratives that leave a lasting impression across digital platforms is my forte.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Boosting Online Visibility 🔍</h3>
+                    <p>I optimize your content for SEO, ensuring your brand shines bright and reaches a wider audience.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Trend Analysis 📊</h3>
+                    <p>Stay ahead of the curve with my trend insights, tailored to keep your brand relevant and engaging.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Luxury Clients Section -->
+    <section id="clients" class="section clients">
+        <div class="container">
+            <h2 class="section-title">Clients 💼</h2>
+            <p class="section-subtitle">During my career, I've had the privilege to collaborate with various brands, contributing to their digital marketing and branding efforts. Here are some highlights:</p>
+            <div class="client-grid">
+                <div class="client-card">
+                    <h3><a href="https://thob.studio/" target="_blank">thob</a> (The House of Bespoke) 👔</h3>
+                    <ul>
+                        <li>Defined brand identity and crafted compelling narratives to strengthen brand positioning in the market.</li>
+                        <li>Optimized website content for SEO, resulting in increased organic traffic and improved search engine rankings.</li>
+                        <li>Executed successful email marketing campaigns, driving higher engagement and conversion rates.</li>
+                    </ul>
+                </div>
+                <div class="client-card">
+                    <h3><a href="https://anemonevinkel.com/" target="_blank">Anemone Vinkel</a> 🌸</h3>
+                    <ul>
+                        <li>Created print motifs aligned with the brand's aesthetics, enhancing brand recognition and visual identity across digital platforms.</li>
+                        <li>Assisted in photoshoot styling to ensure brand consistency and elevate the brand's image on social media platforms.</li>
+                        <li>Conducted market analysis to identify trends and consumer preferences, guiding future collections and marketing strategies.</li>
+                    </ul>
+                </div>
+                <div class="client-card">
+                    <h3><a href="https://rasmedia.in/" target="_blank">RAS Media and Entertainment</a> 👠</h3>
+                    <ul>
+                        <li>Supported the Head Stylist in various tasks, contributing to the overall visual appeal and brand image in digital media.</li>
+                        <li>Conceived shoot themes that resonated with the target audience, enhancing brand perception and engagement.</li>
+                        <li>Managed sourcing of outfits and props for photo shoots, ensuring coherence and impact in digital content.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Luxury Testimonials Section -->
+    <section id="testimonials" class="section testimonials">
+        <div class="container">
+            <h2 class="section-title">Testimonials 🙌</h2>
+            <p class="section-subtitle">Discover what my clients have to say about their experiences working with me. 💁🏻‍♀️✨</p>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <blockquote>
+                        "I worked with Mihika during her internship as a Marketing Intern at our company. Mihika's exceptional project management skills and her ability to create and implement effective processes were truly impressive. And not to forget her research skills. She played a pivotal role in initiating and maintaining our blogs, ensuring each post was SEO-rich and perfectly aligned with our product.<br><br>
+                        Mihika's persistence and efficiency in completing tasks, along with her deep understanding of our product, were remarkable. She adeptly researched relevant topics, distributed tasks to the appropriate team members, and ensured timely postings. Her extensive knowledge of fashion was incredibly valuable for our fashion product development.<br><br>
+                        Mihika's dedication and expertise make her a valuable asset in any professional setting. I highly recommend her for any future endeavors and wish her all the best."
+                    </blockquote>
+                    <div class="testimonial-author">— Rohan Lamghare, CEO at thob.studio</div>
+                </div>
+                <div class="testimonial">
+                    <blockquote>
+                        "Hey, doc! Let me tell ya, when it comes to getting the carrots – or should I say, customers – hopping down the digital rabbit hole, Mihika is the real deal! With her expertise, our brand went from just another carrot in the patch to the talk of the town. And let me tell ya, she is as reliable as my trusty carrot stash – always there when you need 'em, ready to tackle any challenge head-on. 💪<br><br>
+                        #DigitalMarketingMagic #BunnyApproved 🐰"
+                    </blockquote>
+                    <div class="testimonial-author">— Bunbun Bunny, Chief Carrot Connoisseur 🥕</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Luxury Blog Section -->
+    <section id="blog" class="section blog">
+        <div class="container">
+            <h2 class="section-title">Blog 📝</h2>
+            <p class="coming-soon">You are early, content coming soon ✨</p>
+        </div>
+    </section>
+
+    <!-- Luxury Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2>Let's Connect 🤝</h2>
+            <p>Unlock your brand's full potential in the digital world, whether you're a startup looking to make a splash or an established brand aiming to refresh your online presence.</p>
+            <a href="mailto:hello@mihikas.com" class="email-btn">hello@mihikas.com</a>
+            <p style="margin-top: 3rem; font-size: 1.2rem; opacity: 0.8;">Sending hugs your way! 🤗</p>
+        </div>
+    </section>
+
+    <script>
+        // Custom luxury cursor
+        const cursorDot = document.querySelector('.cursor-dot');
+        const cursorOutline = document.querySelector('.cursor-outline');
+
+        window.addEventListener('mousemove', (e) => {
+            const posX = e.clientX;
+            const posY = e.clientY;
+
+            cursorDot.style.left = `${posX}px`;
+            cursorDot.style.top = `${posY}px`;
+
+            cursorOutline.style.left = `${posX}px`;
+            cursorOutline.style.top = `${posY}px`;
+
+            cursorOutline.animate({
+                left: `${posX}px`,
+                top: `${posY}px`
+            }, { duration: 500, fill: "forwards" });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Luxury Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections
+        document.querySelectorAll('.section').forEach(section => {
+            observer.observe(section);
+        });
+
+        // Luxury parallax effect for floating elements
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const rate = scrolled * -0.3;
+            
+            document.querySelectorAll('.floating').forEach((element, index) => {
+                const speed = 0.1 + (index * 0.03);
+                element.style.transform = `translateY(${rate * speed}px) rotate(${scrolled * 0.01}deg)`;
+            });
+        });
+
+        // Sophisticated typing effect for hero title
+        function luxuryTypeWriter(element, text, speed = 80) {
+            let i = 0;
+            element.innerHTML = '';
+            function typing() {
+                if (i < text.length) {
+                    element.innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(typing, speed);
+                }
+            }
+            typing();
+        }
+
+        // Initialize luxury typing effect when page loads
+        window.addEventListener('load', () => {
+            const heroTitle = document.querySelector('.hero-content h1');
+            const originalText = heroTitle.innerHTML;
+            setTimeout(() => {
+                luxuryTypeWriter(heroTitle, originalText, 60);
+            }, 500);
+        });
+
+        // Enhanced hover effects for service cards
+        document.querySelectorAll('.service-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.background = 'linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(244,228,231,0.9) 100%)';
+                card.style.transform = 'translateY(-10px) scale(1.02)';
+                card.style.boxShadow = '0 30px 60px rgba(212, 82, 106, 0.2)';
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.background = 'rgba(255, 255, 255, 0.8)';
+                card.style.transform = 'translateY(0) scale(1)';
+                card.style.boxShadow = 'none';
+            });
+        });
+
+        // Luxury navigation background change on scroll
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.nav');
+            if (window.scrollY > 100) {
+                nav.style.background = 'rgba(250, 247, 245, 0.98)';
+                nav.style.boxShadow = '0 4px 30px rgba(212, 82, 106, 0.15)';
+            } else {
+                nav.style.background = 'rgba(250, 247, 245, 0.95)';
+                nav.style.boxShadow = '0 4px 30px rgba(212, 82, 106, 0.1)';
+            }
+        });
+
+        // Add luxury hover effects to CTA buttons
+        document.querySelectorAll('.cta-btn').forEach(btn => {
+            btn.addEventListener('mouseenter', () => {
+                btn.style.transform = 'translateY(-5px) scale(1.05)';
+            });
+            
+            btn.addEventListener('mouseleave', () => {
+                btn.style.transform = 'translateY(-3px) scale(1)';
+            });
+        });
+
+        // Enhanced cursor interactions
+        const interactiveElements = document.querySelectorAll('a, button, .service-card, .client-card, .testimonial');
+        
+        interactiveElements.forEach(el => {
+            el.addEventListener('mouseenter', () => {
+                cursorDot.style.transform = 'translate(-50%, -50%) scale(2)';
+                cursorOutline.style.transform = 'translate(-50%, -50%) scale(1.5)';
+                cursorOutline.style.borderColor = 'var(--primary-pink)';
+            });
+            
+            el.addEventListener('mouseleave', () => {
+                cursorDot.style.transform = 'translate(-50%, -50%) scale(1)';
+                cursorOutline.style.transform = 'translate(-50%, -50%) scale(1)';
+                cursorOutline.style.borderColor = 'rgba(212, 82, 106, 0.3)';
+            });
+        });
+
+        // Make the first section visible immediately
+        document.querySelector('#home').classList.add('visible');
+
+        // Luxury loading animation
+        window.addEventListener('load', () => {
+            document.body.style.opacity = '0';
+            document.body.style.transition = 'opacity 0.8s ease';
+            setTimeout(() => {
+                document.body.style.opacity = '1';
+            }, 100);
+        });
+
+        // Add stagger animation to grid items
+        function staggerAnimation(selector, delay = 100) {
+            const elements = document.querySelectorAll(selector);
+            elements.forEach((el, index) => {
+                el.style.animationDelay = `${index * delay}ms`;
+            });
+        }
+
+        // Apply stagger animations
+        document.addEventListener('DOMContentLoaded', () => {
+            staggerAnimation('.service-card');
+            staggerAnimation('.client-card', 150);
+            staggerAnimation('.testimonial', 200);
+        });
+    </script>
+</body>
+</html>
